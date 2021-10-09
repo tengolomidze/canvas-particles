@@ -108,7 +108,7 @@ canvas.addEventListener("mouseup", function(){
   }
 
   function pushParticles(){
-      for(let i = 0; i < 2; i++){
+      for(let i = 0; i < 5; i++){
           particlesArray.push(new particles())
       }
   }
